@@ -20,6 +20,13 @@
                     <div class="actual-post">
                         <%= post.post %>
                     </div>
+                    <div class="post-bottom">
+                        <i class="fa fa-heart like-<%= post.id %> post-like" data-id="<%=post.id%>"></i>
+                        <i class="fa fa-comment post-comment"></i>
+                        <strong ><%= post.total_likes %> likes</strong>
+                        <p class="text-muted"><%= time_ago_in_words post.created_at %> ago</p>
+                    </div>
+
                 </div>
             </div>
         <% end %>
