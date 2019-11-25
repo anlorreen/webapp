@@ -1,0 +1,47 @@
+.post-style{
+    margin-bottom: 15px;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+.post-meta{
+    background: #fff;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 1px solid #999;
+}
+
+.actual-post{
+    color: #333333;
+    font-weight: 500;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #999;
+}
+
+.post-actions{
+}
+
+
+.post-bottom{
+    text-align: right;
+    padding-top: 10px;
+    i{
+        cursor: pointer;
+    }
+
+    i.active{
+        color : #CB4335;
+    }
+
+    i:hover{
+        color:  #CB4335;
+    }
+
+}
